@@ -1,0 +1,103 @@
+{
+  "en": "English",
+  "sr": "Serbian",
+  "search": "Search",
+  "feedbacks_count": {
+    "total": "Total feedbacks",
+    "resolved": "Resolved feedbacks",
+    "unresolved": "Unresolved feedbacks"
+  },
+  "load_more": "Load more",
+  "feedbacks": {
+    "add_new": "Provide feedback",
+    "send": "Send feedback",
+    "add_new_placeholder": "Feel heard, write feedback...",
+    "cancel": "Cancel",
+    "resolved": "Resolved",
+    "unresolved": "Unresolved",
+    "pending": "Pending",
+    "rejected": "Rejected",
+    "public": "Public",
+    "anonymously": "Anonymously",
+    "anonymous": "Anonymous",
+    "leave_anonymous": "Leave Anonymous Feedback",
+    "no_feedbacks": "No feedbacks found...",
+    "reject_feedback_title": "Please write reason why you reject this feedback.",
+    "reject_placeholder": "Razlog...",
+    "show_comment": "Show comment",
+    "hide_comment": "Hide comment",
+    "reject_reason": "Reject reason:",
+    "sort": {
+      "newest": "Newest",
+      "oldest": "Oldest",
+      "most_disliked": "Most disliked",
+      "least_disliked": "Least disliked",
+      "most_liked": "Most liked",
+      "least_liked": "Least liked"
+    },
+    "status": {
+      "resolved": "Resolved",
+      "unresolved": "Unresolved",
+      "pending": "Pending",
+      "rejected": "Rejected"
+    },
+    "to_general": "to General",
+    "to_administration": "to Administration",
+    "to_ceo": "to CEO"
+  },
+  "sort_by": "Sort by",
+  "feedback_list": "Feedback list",
+  "company_resources": "Company resources",
+  "days": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+  "resources": {
+    "link_or_file_required": "Either a link or a file is required",
+    "valid_url": "Must be a valid URL",
+    "resource_name_required": "Resource name is required",
+    "resource_name_placeholder": "Resource name",
+    "resource_url_placeholder": "Resource link",
+    "add_new": "Add new resource",
+    "invalid_type": "Invalid type of resource",
+    "exceeded_limit": "Uploaded resource exceeded limit (5mb max)",
+    "remove_resource": "Remove",
+    "close_modal": "Close",
+    "are_you_sure": "Are you sure you want to remove",
+    "edit_resource": "Edit resource",
+    "download_previous_file": "Download previous file"
+  },
+  "select_file": "Select file",
+  "download": "Download",
+  "close": "Close",
+  "uploading": "Uploading...",
+  "submit": "Submit",
+  "empty": "Empty",
+  "notifications": {
+    "resource_created_title": "New resource",
+    "resource_created_content": "New resource has been created",
+    "feedback_rejected_title": "Your feedback has been rejected. Reason: "
+  },
+  "avatar_title": "Change your avatar",
+  "select_image": "Select image",
+  "change_avatar": "Edit profile image",
+  "change_password": "Change password",
+  "logout": "Log out",
+  "toast": {
+    "feedback_sent_success": "Feedback added successfully!",
+    "feedback_sent_error": "Failed to add feedback!",
+    "resource_added_success": "Resource added successfully!",
+    "resource_added_error": "Failed to add resource!",
+    "feedback_status_updated": "Feedback status updated successfully",
+    "feedback_status_update_error": "Failed to update feedback status",
+    "resource_removed_success": "Resource removed successfully!",
+    "resource_removed_error": "Failed to remove resource!",
+    "resource_edit_success": "Resource edited successfully!",
+    "resource_edit_error": "Failed to edit resource!"
+  }
+}
