@@ -9,7 +9,9 @@ React Extension
 folder structure explanation (some folders are not nested properly, and some are deleted, this is just for "code review", extension is not startable):
 
 assets/icons - all svgs are wrapped inside component that returns it
+
 assets/img and assets/style - ignoreable
+
 core - each "feature" that communicate with backend has 2 layers, service layer / repository layer + query "layer"
 database - ignorable
 dist - ignorable
