@@ -18,7 +18,7 @@ export const CLOSE = 'close';
 export const SUBMIT = 'submit';
 export const UPLOADING = 'uploading';
 
-export const SUPABASE_URL = 'https://wuhzqfhprtcqnemkrqqj.supabase.co';
+export const SUPABASE_URL = '';
 
 export enum UserRoles {
   EMPLOYEE = 'employee',
