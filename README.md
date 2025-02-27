@@ -6,7 +6,7 @@ npm run build
 
 React Extension
 
-folder structure explanation (some folders are not nested properly, and some are deleted, this is just for "code review", extension is not startable):
+folder structure explanation (some folders are not nested properly, and some are deleted, this is just for "review purpose", extension is not startable):
 
 assets/icons - all svgs are wrapped inside component that returns it
 
