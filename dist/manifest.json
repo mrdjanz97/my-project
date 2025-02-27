@@ -1,0 +1,64 @@
+{
+  "manifest_version": 3,
+  "name": "JSGuru Board",
+  "key": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi6jjCQ0KYUk4/OGBaavy\nytS8gI0gdEnv5ItSst1Cw5PBr8iEX/czy/LM8RXMhM29Kr0ICkkwFJWfjxycmHQ0\nb0tnBNEJAa7Fp1M0SrniQ6V087A1LoHKseCAGCJ0SbCvz3ZtP/xnIYlxBl35OExr\n7tGjP4NLZX+BC2f2PX5Ojkfibc/5TUvJEaksA8hkAhDybABLURoVdS2PW20lT8W0\nMTM4E1TeEFlBNvhi1I8ZG/Vm2mRPQFrehPovXUKLYnIp/kZkFApwXlkBag+pShqU\n6N4Gpp0bJYjzD6aprX4Ui9QJ22fFpKPim9PhRFI0wtLMpJvMyWU9VvIsvRQOVAtI\ngwIDAQAB\n-----END PUBLIC KEY-----",
+  "version": "1.0.0",
+  "description": "Feedback helper",
+  "permissions": [
+    "storage",
+    "sidePanel",
+    "identity"
+  ],
+  "side_panel": {
+    "default_path": "src/pages/sidepanel/index.html"
+  },
+  "options_page": "src/pages/options/index.html",
+  "background": {
+    "service_worker": "src/pages/background/index.js",
+    "type": "module"
+  },
+  "action": {},
+  "chrome_url_overrides": {
+    "newtab": "src/pages/newtab/index.html"
+  },
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*",
+        "<all_urls>"
+      ],
+      "js": [
+        "src/pages/content/index.js"
+      ],
+      "css": [
+        "assets/css/contentStyle1731405782336.chunk.css"
+      ]
+    }
+  ],
+  "devtools_page": "src/pages/devtools/index.html",
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/js/*.js",
+        "assets/css/*.css",
+        "icon-128.png",
+        "icon-34.png"
+      ],
+      "matches": [
+        "*://*/*"
+      ]
+    }
+  ],
+  "oauth2": {
+    "client_id": "546057772805-1opkesu3dl637cith33i7etj1ta45ug4.apps.googleusercontent.com",
+    "scopes": [
+      "openid",
+      "email",
+      "profile"
+    ]
+  }
+}

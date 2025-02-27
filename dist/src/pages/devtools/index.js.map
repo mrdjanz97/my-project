@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../../../../src/pages/devtools/index.ts"],"sourcesContent":["try {\r\n  chrome.devtools.panels.create('Dev Tools', 'icon-34.png', 'src/pages/panel/index.html');\r\n} catch (e) {\r\n  console.error(e);\r\n}\r\n"],"names":[],"mappings":"AAAA,IAAI;AACF,SAAO,SAAS,OAAO,OAAO,aAAa,eAAe,4BAA4B;AACxF,SAAS,GAAG;AACV,UAAQ,MAAM,CAAC;AACjB;"}

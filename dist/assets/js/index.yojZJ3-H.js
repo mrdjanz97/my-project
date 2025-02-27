@@ -1,0 +1,2 @@
+import{r as n,j as e,c as d}from"./client.UkECvSOG.js";import"./_commonjsHelpers.5-cIlDoe.js";function r(){return n.useEffect(()=>{console.log("content view loaded")},[]),e.jsx("div",{className:"",children:"content view"})}const o=document.createElement("div");o.id="jsguru_board-content-view-root";document.body.append(o);const t=document.createElement("div");t.id="shadow-root";const c=o.attachShadow({mode:"open"});c.appendChild(t);d(t).render(e.jsx(r,{}));
+//# sourceMappingURL=index.yojZJ3-H.js.map

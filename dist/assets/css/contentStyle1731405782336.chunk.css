@@ -1,0 +1,12 @@
+.crx-class {
+  color: pink;
+}
+
+.content-view-style-may-be-not-working {
+  font-size: 30px;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
